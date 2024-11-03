@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <div class="container">
+        <span class="pokemonEngName"><a href="https://pokemon.fandom.com/ko/wiki/국가별_포켓몬_이름_목록">포켓몬 영문 이름 찾기</a></span>
+        <div class="submit-box">
+            <input type="text" id="pokemonName" placeholder="포켓몬 이름을 입력하세요" spellcheck="false">
+            <button onclick="fetchData()"id="btnFtch">검색</button><br>
+        </div>
+        <div class="img-box">
+            <img src="" alt="pokemon image" id="pokemonSprite" style="display: none">
+        </div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
